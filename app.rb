@@ -3,7 +3,7 @@ require 'sinatra'
 class Application < Sinatra::Base
   
   not_found do
-    erb :404
+    erb :'404'
   end
   
   error do
