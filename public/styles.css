@@ -263,6 +263,8 @@ width:93%;
 footer {
 width:98%;
 margin-top:2%;
+margin-left:auto;
+margin-right:auto;
 bottom:0;
 display:block;
 text-align:center;
