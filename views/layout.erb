@@ -7,6 +7,9 @@
 	<meta name="author" content="Brenton Earl" />
 	<meta name="description" content="A blog about technology, programming, Linux and Ruby." />
 	<meta name="keywords" content="Technology, Linux, Ruby, Programming, Sinatra, Ruby On Rails" />
+	<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/styles.css" />
 	<!--[if lt IE 9]>
 	<script src="dist/html5shiv.js"></script>
@@ -14,22 +17,24 @@
 </head>
 <body>
 	<header>
-		<h1><a href="/">Exit Status One</a></h1>
+	<div id="header">
+    	<h1 id="title"><a href="/">Exit Status One</a></h1>
 		<p id="tagline">Under Construction!</p>
-	</header>
 	<nav>
 		<ul>
-			<li>&raquo; <a href="https://twitter.com/BrentonLeeEarl">Twitter</a></li>
-			<li>&raquo; <a href="https://www.facebook.com/exitstatusone">Facebook</a></li>
-			<li>&raquo; <a href="https://github.com/BrentonEarl">Github</a></li>
-			<li>&raquo; <a href="https://www.youtube.com/user/mralkthree">Youtube</a></li>
+			<li><a href="https://twitter.com/BrentonLeeEarl">Twitter</a></li>
+			<li><a href="https://www.facebook.com/exitstatusone">Facebook</a></li>
+			<li><a href="https://github.com/BrentonEarl">Github</a></li>
+			<li><a href="https://www.youtube.com/user/mralkthree">Youtube</a></li>
 		</ul>
 	</nav>
+	</div>
+	</header>
 	<section>
 		<%= yield %>
 	</section>
 	<footer>
-		<p>&copy; <a href="http://exitstatusone.com">Exit Status One</a> | Powered by &raquo; <a href="http://www.sinatrarb.com/">Sinatra</a></p>
+		<p>&copy; <a href="http://exitstatusone.com">Exit Status One</a> | Powered by <a href="http://www.sinatrarb.com/">Sinatra</a></p>
 	</footer>
 </body>
 </html>
